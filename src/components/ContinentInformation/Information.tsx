@@ -1,0 +1,111 @@
+import { Flex, Icon, Text, Tooltip } from "@chakra-ui/react";
+import { FiAlertCircle } from 'react-icons/fi';
+
+export function Information() {
+  return (
+    <Flex
+      direction="row"
+      justify="space-between"
+    >
+      <Flex
+        w="100%"
+        maxW="600px"
+        maxH="211px"
+      >
+        <Text
+          as="p"
+        >
+          A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+        </Text>
+      </Flex>
+      <Flex
+        h="99px"
+        w="490px"
+        alignItems="center"
+        justifyContent="space-between"
+      >
+        <Flex
+          direction="column"
+          alignItems="center"
+          justify="center"
+        >
+          <Text
+            as="span"
+            fontWeight="600"
+            fontSize="48px"
+            lineHeight="72px"
+            color="highlight.900"
+          >
+            50
+          </Text>
+          <Text
+            as="span"
+            fontWeight="600"
+            fontSize="24px"
+            lineHeight="36px"
+            color="dark.700"
+          >
+            países
+          </Text>
+        </Flex>
+
+        <Flex
+          direction="column"
+          alignItems="center"
+          justify="center"
+        >
+          <Text
+            as="span"
+            fontWeight="600"
+            fontSize="48px"
+            lineHeight="72px"
+            color="highlight.900"
+          >
+            60
+          </Text>
+          <Text
+            as="span"
+            fontWeight="600"
+            fontSize="24px"
+            lineHeight="36px"
+            color="dark.700"
+          >
+            línguas
+          </Text>
+        </Flex>
+
+        <Flex
+          direction="column"
+          alignItems="center"
+          justify="center"
+        >
+          <Text
+            as="span"
+            fontWeight="600"
+            fontSize="48px"
+            lineHeight="72px"
+            color="highlight.900"
+          >
+            27
+          </Text>
+          <Text
+            as="span"
+            fontWeight="600"
+            fontSize="24px"
+            lineHeight="36px"
+            color="dark.700"
+          >
+            cidades +100 
+            <Tooltip label="Information">
+              <Icon 
+                as={FiAlertCircle}
+                fontSize="16px"
+                pl="5px"
+              />
+            </Tooltip>
+          </Text>
+        </Flex>
+      </Flex>
+    </Flex>
+  );
+}

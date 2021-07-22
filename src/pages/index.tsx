@@ -8,7 +8,6 @@ import { TravelTypes } from '../components/TravelTypes';
 export default function Home() {
   return (
     <Flex 
-      
       direction="column"
       h="100%"
       pb="10px"
