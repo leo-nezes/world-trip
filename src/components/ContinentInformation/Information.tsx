@@ -1,33 +1,29 @@
-import { Flex, Icon, Text, Tooltip } from "@chakra-ui/react";
+import { Box, Flex, HStack, Icon, SimpleGrid, Text, Tooltip, VStack } from "@chakra-ui/react";
 import { FiAlertCircle } from 'react-icons/fi';
 
 export function Information() {
   return (
     <Flex
-      direction="row"
       justify="space-between"
     >
-      <Flex
-        w="100%"
-        maxW="600px"
-        maxH="211px"
+      <Box
+        w="600px"
+        h="211px"
       >
         <Text
           as="p"
+          fontSize="24"
+          textAlign="justify"
         >
-          A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+          A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.
         </Text>
-      </Flex>
-      <Flex
-        h="99px"
-        w="490px"
+      </Box>
+      <HStack
         alignItems="center"
-        justifyContent="space-between"
+        spacing="40px"
       >
-        <Flex
+        <VStack
           direction="column"
-          alignItems="center"
-          justify="center"
         >
           <Text
             as="span"
@@ -47,12 +43,10 @@ export function Information() {
           >
             países
           </Text>
-        </Flex>
+        </VStack>
 
-        <Flex
+        <VStack
           direction="column"
-          alignItems="center"
-          justify="center"
         >
           <Text
             as="span"
@@ -72,12 +66,10 @@ export function Information() {
           >
             línguas
           </Text>
-        </Flex>
+        </VStack>
 
-        <Flex
+        <VStack
           direction="column"
-          alignItems="center"
-          justify="center"
         >
           <Text
             as="span"
@@ -104,8 +96,8 @@ export function Information() {
               />
             </Tooltip>
           </Text>
-        </Flex>
-      </Flex>
+        </VStack>
+      </HStack>
     </Flex>
   );
 }

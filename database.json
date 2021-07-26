@@ -1,0 +1,39 @@
+{
+  "europe": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1587726480710-003743795e40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZG9ufGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "city": "Londres",
+      "country  ": "Reino Unido",
+      "flag": "https://www.countryflags.io/gb/flat/64.png"
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1517350705438-3a7e87343117?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      "city": "Paris",
+      "country  ": "França",
+      "flag": "https://www.countryflags.io/fr/flat/64.png"
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1583422095309-55daabc9cc78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      "city": "Roma",
+      "country  ": "Itália",
+      "flag": "https://www.countryflags.io/it/flat/64.png"
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1619551444450-11aed71fe8a7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHByYWd1ZXxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "city": "Praga",
+      "country  ": "República Tcheca",
+      "flag": "https://www.countryflags.io/cz/flat/64.png"
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1570905705971-e6f513246752?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YW1zdGVyZGFtfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "city": "Amsterdã",
+      "country  ": "Holanda",
+      "flag": "https://www.countryflags.io/nl/flat/64.png"
+    }
+  ]
+}
